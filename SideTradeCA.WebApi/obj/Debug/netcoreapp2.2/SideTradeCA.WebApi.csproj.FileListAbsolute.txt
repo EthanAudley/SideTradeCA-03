@@ -1,0 +1,14 @@
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\bin\Debug\netcoreapp2.2\SideTradeCA.WebApi.deps.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\bin\Debug\netcoreapp2.2\SideTradeCA.WebApi.runtimeconfig.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\bin\Debug\netcoreapp2.2\SideTradeCA.WebApi.runtimeconfig.dev.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\bin\Debug\netcoreapp2.2\SideTradeCA.WebApi.dll
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\bin\Debug\netcoreapp2.2\SideTradeCA.WebApi.pdb
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.csprojAssemblyReference.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.RazorAssemblyInfo.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.RazorAssemblyInfo.cs
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.AssemblyInfoInputs.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.AssemblyInfo.cs
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.dll
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.WebApi\obj\Debug\netcoreapp2.2\SideTradeCA.WebApi.pdb

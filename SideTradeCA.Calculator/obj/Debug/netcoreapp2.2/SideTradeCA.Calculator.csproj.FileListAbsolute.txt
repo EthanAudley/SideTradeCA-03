@@ -1,0 +1,11 @@
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\bin\Debug\netcoreapp2.2\SideTradeCA.Calculator.deps.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\bin\Debug\netcoreapp2.2\SideTradeCA.Calculator.runtimeconfig.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\bin\Debug\netcoreapp2.2\SideTradeCA.Calculator.runtimeconfig.dev.json
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\bin\Debug\netcoreapp2.2\SideTradeCA.Calculator.dll
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\bin\Debug\netcoreapp2.2\SideTradeCA.Calculator.pdb
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.csprojAssemblyReference.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.AssemblyInfoInputs.cache
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.AssemblyInfo.cs
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.dll
+C:\Users\Ethan\Documents\GitHub\SideTradeCA-03\SideTradeCA.Calculator\obj\Debug\netcoreapp2.2\SideTradeCA.Calculator.pdb
