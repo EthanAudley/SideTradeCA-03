@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
+      "projectUniqueName": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
       "projectName": "SideTradeCA.Calculator",
-      "projectPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
+      "projectPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
       "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.Calculator\\obj\\",
+      "outputPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

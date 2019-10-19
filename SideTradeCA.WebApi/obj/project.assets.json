@@ -12245,11 +12245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.WebApi\\SideTradeCA.WebApi.csproj",
+      "projectUniqueName": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.WebApi\\SideTradeCA.WebApi.csproj",
       "projectName": "SideTradeCA.WebApi",
-      "projectPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.WebApi\\SideTradeCA.WebApi.csproj",
+      "projectPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.WebApi\\SideTradeCA.WebApi.csproj",
       "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03\\SideTradeCA.WebApi\\obj\\",
+      "outputPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
