@@ -33,5 +33,9 @@ namespace SideTradeCA.ConsoleApp
             return 1.0f;
         }
 
+        public float Power(float temp, float temp2)
+        {
+            return 1.0f;
+        }
     }
 }

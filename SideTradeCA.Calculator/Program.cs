@@ -5,20 +5,22 @@ namespace SideTradeCA.ConsoleApp
 {
     class Program
     {
+        enum Calculation
+        {   
+            Multiply,
+            Subtract,
+            Divide,
+            Add,
+            Power
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
-
             Operators op = new Operators();
-
-            double value1 = 0;
-            double value2 = 0;
-            double result = 0;
-
             UserInput UInput = new UserInput();
-            
-            value1 = UInput.Input();
-            value2 = UInput.Input();
+
+            double result = 0;
+            double value1 = UInput.Input();
+            double value2 = UInput.Input();
 
             if (value1 >= 0 && value2 >= 0)
             {
