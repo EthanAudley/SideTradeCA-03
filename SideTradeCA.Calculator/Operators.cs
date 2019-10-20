@@ -13,7 +13,7 @@ namespace SideTradeCA.ConsoleApp
             for (double i = 1; i <= counter; i++)
             {
                 result = result + a;
-                Console.WriteLine("Value = " + result);
+                //Console.WriteLine("Value = " + result);               //Debugging 
             }
             return result;
         }

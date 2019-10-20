@@ -6,18 +6,9 @@ namespace SideTradeCA.ConsoleApp
 {
     class Program
     {
-        enum Calculation
-        {   
-            Multiply = '*',
-            Subtract = '-',
-            Divide = '/',
-            Add = '+',
-            Power = '^'
-        }
+
         static void Main(string[] args)
         {
-            Operators OP = new Operators();
-            UserInput UInput = new UserInput();
 
             Console.WriteLine();
             Console.WriteLine();
@@ -30,53 +21,17 @@ namespace SideTradeCA.ConsoleApp
             Console.WriteLine("^   =   Power");
 
             // TODO:: Error check chars above.
-            string str = Console.ReadLine();
 
-            double result = 0;
-            double value1 = 0;
-            double value2 = 0;
+            UserInput UInput = new UserInput();
 
-
-            foreach (var name in Enum.GetValues(typeof(Calculation)).Cast<Calculation>())
+            bool reset = true;
+            //TODO:: R/r to reset the program?
+            while (reset)
             {
-                char tempChar = str[0];
-                if((char)name == tempChar)
-                {
-                    switch ((char)name)
-                    {
-                        case '*':
-                            value1 = UInput.Input();
-                            value2 = UInput.Input();
-                            result = OP.Multiply(value1,value2);
-                            break;
-                        case '/':
-                            value1 = UInput.Input();
-                            value2 = UInput.Input();
-                            result = OP.Divide(value1,value2);
-                            break;
-                        case '-':
-                            value1 = UInput.Input();
-                            value2 = UInput.Input();
-                            result = OP.Subtract(value1,value2);
-                            break;
-                        case '+':
-                            value1 = UInput.Input();
-                            value2 = UInput.Input();
-                            result = OP.Add(value1,value2);
-                            break;
-                        case '^':
-                            value1 = UInput.Input();
-                            value2 = UInput.Input();
-                            result = OP.Power(value1,value2);
-                            break;
-
-                    }
-                    // Set up a case statement 
-                };
+                UInput.GetOperationInput(); 
             }
+           
 
-                Console.WriteLine(result);
-                Console.WriteLine("END");
 
         }
     }
