@@ -24,9 +24,7 @@ namespace SideTradeCA.ConsoleApp
                     checkInput = false; 
                 }
             }
-
             return temp;
         }
-
     }
 }

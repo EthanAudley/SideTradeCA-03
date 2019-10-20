@@ -22,7 +22,7 @@ namespace SideTradeCA.ConsoleApp
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("       Which operation do you want to perform?");
-            Console.WriteLine("The list of commands are below, type ne of the following...");
+            Console.WriteLine("The list of commands are below, type one of the following symbols");
             Console.WriteLine("*   =   Multiply");
             Console.WriteLine("-   =   Subtract");
             Console.WriteLine("/   =   Divide");

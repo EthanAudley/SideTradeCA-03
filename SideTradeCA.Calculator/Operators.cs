@@ -5,46 +5,46 @@ namespace SideTradeCA.ConsoleApp
 {
     public class Operators
     {
-        public double Multiply(double temp, double temp2)
+        public double Multiply(double a, double b)
         {
             double result = 0;
-            double counter = temp2;
+            double counter = b;
 
             for (double i = 1; i <= counter; i++)
             {
-                result = result + temp;
+                result = result + a;
                 Console.WriteLine("Value = " + result);
             }
             return result;
         }
 
-        public double Subtract(double temp, double temp2)
+        public double Subtract(double a, double b)
         {
-            return temp - temp2;
+            return a - b;
         }
 
-        public double Divide(double temp, double temp2)
+        public double Divide(double a, double b)
         {
             
-            if (temp == 0) 
+            if (a == 0) 
                 return 0; 
-            if (temp2 == 0) 
+            if (b == 0) 
                 return 0; 
             
             bool negResult = false; 
             
             // Handling negative numbers 
-            if (temp < 0) 
+            if (a < 0) 
             { 
-                temp = -temp ; 
-                if (temp2 < 0) 
-                    temp2 = - temp2 ;  
+                a = -a ; 
+                if (b < 0) 
+                    b = - b ;  
                 else
                     negResult = true; 
             } 
-            else if (temp2 < 0) 
+            else if (b < 0) 
             { 
-                temp2 = - temp2 ; 
+                b = - b ; 
                 negResult = true;  
             } 
             
@@ -52,20 +52,19 @@ namespace SideTradeCA.ConsoleApp
             // subtract num2 from num1 and increase 
             // quotient by one. 
             int quotient = 0; 
-            while (temp >= temp2) 
+            while (a >= b) 
             { 
-                temp = temp - temp2 ; 
+                a = a - b ; 
                 quotient++ ; 
             } 
             
             // checking if neg equals to 1 then making 
             // quotient negative  
             if (negResult) 
-            {
-                    quotient = - quotient ; 
+                quotient = - quotient;
+
+
             return quotient ; 
-            }
-            return 0;
         }
 
         public double Add(double temp, double temp2)
@@ -75,7 +74,7 @@ namespace SideTradeCA.ConsoleApp
 
         public double Power(double temp, double temp2)
         {
-            return 1.0;
+            return temp = Math.Pow(temp,temp2);
         }
     }
 }
