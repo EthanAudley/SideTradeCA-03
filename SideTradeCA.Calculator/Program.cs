@@ -16,7 +16,7 @@ namespace SideTradeCA.ConsoleApp
         }
         static void Main(string[] args)
         {
-            Operators op = new Operators();
+            Operators OP = new Operators();
             UserInput UInput = new UserInput();
 
             Console.WriteLine();
@@ -47,19 +47,27 @@ namespace SideTradeCA.ConsoleApp
                         case '*':
                             value1 = UInput.Input();
                             value2 = UInput.Input();
-                            result = op.Multiply(value1,value2);
+                            result = OP.Multiply(value1,value2);
                             break;
                         case '/':
-                        
+                            value1 = UInput.Input();
+                            value2 = UInput.Input();
+                            result = OP.Divide(value1,value2);
                             break;
                         case '-':
-                        
+                            value1 = UInput.Input();
+                            value2 = UInput.Input();
+                            result = OP.Subtract(value1,value2);
                             break;
                         case '+':
-                        
+                            value1 = UInput.Input();
+                            value2 = UInput.Input();
+                            result = OP.Add(value1,value2);
                             break;
                         case '^':
-                        
+                            value1 = UInput.Input();
+                            value2 = UInput.Input();
+                            result = OP.Power(value1,value2);
                             break;
 
                     }
@@ -67,22 +75,9 @@ namespace SideTradeCA.ConsoleApp
                 };
             }
 
-
-            
-
-            if (value1 >= 0 && value2 >= 0)
-            {
-                result = op.Multiply(value1,value2);
                 Console.WriteLine(result);
-            }
+                Console.WriteLine("END");
 
-            
-            // //op.Multiply(a,b);
-            // Console.WriteLine(result);
-            // Console.WriteLine("Hello World!");
-
-
-            //string[] temp =  SideTradeCA.
         }
     }
 }
