@@ -37,20 +37,24 @@ namespace SideTradeCA.ConsoleApp
             return temp;
         }
 
-        public void GetOperationInput()
+        public bool GetOperationInput()
         {
             double result = 0;
             double value1 = 0;
             double value2 = 0;
-
+            bool tempBool = false;
             //UserInput UInput = new UserInput();
             Operators OP = new Operators();
 
             string str = Console.ReadLine();
-
+            char tempChar = str[0];
+            if (tempChar == 'R' || tempChar == 'r')
+            {
+                return tempBool = true;
+            }
+            // TODO:: Error check chars e.g "*5" will work but isn't wantedR.
             foreach (var name in Enum.GetValues(typeof(Calculation)).Cast<Calculation>())
             {
-                char tempChar = str[0];
                 if((char)name == tempChar)
                 {
                     switch ((char)name)
@@ -59,33 +63,45 @@ namespace SideTradeCA.ConsoleApp
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
                             result = OP.Multiply(value1,value2);
+                            tempBool = false;
                             break;
                         case '/':
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
                             result = OP.Divide(value1,value2);
+                            tempBool  = false;
                             break;
                         case '-':
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
                             result = OP.Subtract(value1,value2);
+                            tempBool  = false;
                             break;
                         case '+':
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
                             result = OP.Add(value1,value2);
+                            tempBool  = false;
                             break;
                         case '^':
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
                             result = OP.Power(value1,value2);
+                            tempBool  = false;
                             break;
-
+                        case 'r':
+                            tempBool  = true;
+                            break;
+                        case 'R':
+                            tempBool  = true;
+                            break;
                     }
+
                 };
             }
                 Console.WriteLine(result);
                 Console.WriteLine("Enter Operation");
+                return tempBool;
         }
     }
 }
