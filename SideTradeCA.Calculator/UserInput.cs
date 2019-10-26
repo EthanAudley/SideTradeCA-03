@@ -24,7 +24,12 @@ namespace SideTradeCA.ConsoleApp
             while (checkInput == false)
             {
                 string line = Console.ReadLine();
-                if (double.TryParse(line, out temp))
+
+                if (line == "R" || line == "r" )
+                {
+                    return 0.001;
+                }
+                else if (double.TryParse(line, out temp))
                 {
                     return temp;
                 }
@@ -47,12 +52,17 @@ namespace SideTradeCA.ConsoleApp
             Operators OP = new Operators();
 
             string str = Console.ReadLine();
-            char tempChar = str[0];
+            char tempChar = ' ';
+            if (str[0] != ' ')
+            {
+                tempChar = str[0];
+            }
+
             if (tempChar == 'R' || tempChar == 'r')
             {
                 return tempBool = true;
             }
-            // TODO:: Error check chars e.g "*5" will work but isn't wantedR.
+            // TODO:: Error check chars e.g "*5" will work but isn't wanted.
             foreach (var name in Enum.GetValues(typeof(Calculation)).Cast<Calculation>())
             {
                 if((char)name == tempChar)
@@ -62,6 +72,8 @@ namespace SideTradeCA.ConsoleApp
                         case '*':
                             value1 = GetNumericalInput();
                             value2 = GetNumericalInput();
+                            if (value1 == 0.001 || (char)value1 == 'r' || (char)value2 == 'R' || (char)value2 == 'r')
+                                return true;
                             result = OP.Multiply(value1,value2);
                             tempBool = false;
                             break;

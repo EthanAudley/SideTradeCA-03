@@ -22,7 +22,6 @@ namespace SideTradeCA.ConsoleApp
                     P.StartMessage();
                 }
             }
-
         }
 
         public void StartMessage()

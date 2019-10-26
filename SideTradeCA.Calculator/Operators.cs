@@ -25,7 +25,6 @@ namespace SideTradeCA.ConsoleApp
 
         public double Divide(double a, double b)
         {
-            
             if (a == 0) 
                 return 0; 
             if (b == 0) 
@@ -62,7 +61,6 @@ namespace SideTradeCA.ConsoleApp
             // quotient negative  
             if (negResult) 
                 quotient = - quotient;
-
 
             return quotient ; 
         }
