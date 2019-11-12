@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj": {}
+    "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj": {
+    "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
+        "projectUniqueName": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
         "projectName": "SideTradeCA.Calculator",
-        "projectPath": "C:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
+        "projectPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\SideTradeCA.Calculator.csproj",
         "packagesPath": "C:\\Users\\Ethan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\obj\\",
+        "outputPath": "c:\\Users\\Ethan\\Documents\\GitHub\\SideTradeCA-03.1\\SideTradeCA.Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -28,12 +28,15 @@ namespace SideTradeCA.ConsoleApp
         {
             Console.WriteLine();
             Console.WriteLine("           Which operation do you want to perform?");
-            Console.WriteLine("The list of commands are below, type one of the following symbols");
+            Console.WriteLine("The list of commands are below, type one of the following operations..");
             Console.WriteLine("*   =   Multiply");
             Console.WriteLine("-   =   Subtract");
             Console.WriteLine("/   =   Divide");
             Console.WriteLine("+   =   Addition");
             Console.WriteLine("^   =   Power");
+            //Console.WriteLine("  =   Square Root");
+            //Console.WriteLine("( )  =   Parentheses ");
+
             Console.WriteLine(" To restart the program enter R/r");
         }
     }

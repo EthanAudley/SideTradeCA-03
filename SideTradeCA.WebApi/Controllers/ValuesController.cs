@@ -14,7 +14,7 @@ namespace SideTradeCA.WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value3" };
         }
 
         // GET api/values/5
@@ -28,6 +28,7 @@ namespace SideTradeCA.WebApi.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            
         }
 
         // PUT api/values/5

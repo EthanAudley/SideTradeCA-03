@@ -26,5 +26,35 @@ namespace SideTradeCA.WebApi.Controllers
                 return await conncetion.QueryAsync<Product>("SELECT * FROM ca_project.vw_products");
             }
         }
+
+        // // [HttpPut]
+        // // public async Task<IEnumerable<Product>> Put()
+        // // {
+        // //     // using (var conncetion = new NpgsqlConnection(_connectionstring))
+        // //     // {
+        // //     //     return await conncetion.QueryAsync<Product>("SELECT * FROM ca_project.vw_products");
+        // //     // }
+        // //     return null;
+        // // }
+
+        // // [HttpPost]
+        // // public async Task<IEnumerable<Product>> Post()
+        // // {
+        // //     // using (var conncetion = new NpgsqlConnection(_connectionstring))
+        // //     // {
+        // //     //     return await conncetion.QueryAsync<Product>("SELECT * FROM ca_project.vw_products");
+        // //     // }
+        // //     return null;
+        // // }
+
+        // // [HttpDelete]
+        // // public async Task<IEnumerable<Product>> Delete()
+        // // {
+        // //     // using (var conncetion = new NpgsqlConnection(_connectionstring))
+        // //     // {
+        // //     //     return await conncetion.QueryAsync<Product>("SELECT * FROM ca_project.vw_products");
+        // //     // }
+        // //     return null;
+        // // }
     }
 }

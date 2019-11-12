@@ -67,5 +67,15 @@ namespace SideTradeCA.WebApi.Controllers
             
             }
         }
+
+        public ActionResult<IEnumerable<ActiveCandidate>> Post()
+        {
+            using (var connection = new NpgsqlConnection(_connectionString))
+            {
+                ActiveCandidate[] candidates = connection.Query<ActiveCandidate>("SELECT candidate_name FROM code_academy_all.vw_get_all_users").ToArray();
+                return candidates;
+            
+            }
+        }
     }
 }

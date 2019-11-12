@@ -16,15 +16,6 @@ namespace SideTradeCA.WebApi
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-            Console.WriteLine("GET");
-            
-            //string[] temp = new string[0];
-            //WebApi.Controllers.UsersController UC = new WebApi.Controllers.UsersController();
-
-            //UC.Get();
-            
-            //Console.WriteLine("GET");
-
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
